@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadata: 
+  name: labels 
+  labels:
+    course: devops
+    duration: 120hrs
+spec:
+  containers:
+  - name: nginx
+    image: nginx
