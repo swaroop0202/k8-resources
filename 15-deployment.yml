@@ -1,25 +1,25 @@
-kind: ReplicaSet
+kind: Deployment
 apiVersion: app/v1
 metadata:
-  name: nginx
+  name: deployment 
   labels:
-    course: devops
+    name: devops
     tool: kubernetes
     environment: dev
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
-      course: devops
+      name: devops
       tool: kubernetes
       environment: dev
   templates:
     metadata:
       labels:
-        course: devops
+        name: devops
         tool: kubernetes
         environment: dev
       spec:
         containers:
         - name: nginx
-          image: nginx
+          image: nginx    
