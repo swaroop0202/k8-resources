@@ -19,7 +19,7 @@ spec:
         course: devops
         tool: kubernetes
         environment: dev
-      spec:
-        containers:
-        - name: nginx
-          image: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
