@@ -3,6 +3,6 @@ apiVersion: v1
 metadata:
   name: configmap 
 data:
-  course: devops
-  duration: 120hrs
-  tool: kubernetes 
+  course: "devops"
+  duration: "120hrs"
+  tool: "kubernetes" 
