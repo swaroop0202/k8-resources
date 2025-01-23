@@ -1,5 +1,5 @@
 kind: Deployment
-apiVersion: app/v1
+apiVersion: apps/v1
 metadata:
   name: deployment 
   labels:
@@ -13,7 +13,7 @@ spec:
       name: devops
       tool: kubernetes
       environment: dev
-  templates:
+  template:
     metadata:
       labels:
         name: devops

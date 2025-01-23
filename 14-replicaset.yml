@@ -13,7 +13,7 @@ spec:
       course: devops
       tool: kubernetes
       environment: dev
-  templates:
+  template:
     metadata:
       labels:
         course: devops
