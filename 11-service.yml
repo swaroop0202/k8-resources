@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: clusterIP
+  name: my-service
 spec:
   selector:
     name: nginx
